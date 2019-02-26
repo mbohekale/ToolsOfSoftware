@@ -63,8 +63,23 @@ public class UserFrame
                 
             }
         });
+        JButton viewRoomsButton = new JButton("View/SelectReservation");
+
+        viewRoomsButton.setFont(new Font("Serif", Font.PLAIN, 20));
+        viewRoomsButton.addActionListener(new ActionListener()
+        {
+            public void actionPerformed(ActionEvent e)
+            {
+               new ViewHotelRoomsFrame(hotel, guest);
+                /* View/Cancel a reservationâ the system displays all reservations made by this guest.
+                (When the guest asks for the view/cancel, he/she already logged in and thus the system does not 
+                have to ask the id.) The guest may just view the reservations or select and cancel reservations. */
+                
+            }
+        });
         bottomPanel.add(makeReservationButton);
         bottomPanel.add(viewOrCancelButton);
+        bottomPanel.add(viewRoomsButton);
         
         //finished frame
         frame.add(northPanel, BorderLayout.NORTH);

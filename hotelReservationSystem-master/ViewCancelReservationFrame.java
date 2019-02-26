@@ -1,6 +1,6 @@
 
 /**
-   @author Jie Chen
+   @author MBOH EKALE
  */
 
 import java.awt.*;
