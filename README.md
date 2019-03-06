@@ -8,3 +8,5 @@ project for 2019 .
 ### There could be two types of rooms (economic and luxury), 
 ### which will be shown with pictures that the user can see and choose from.
 ## VCS
+### How to use vcs.
+https://www.youtube.com/watch?v=SWYqp7iY_Tc
