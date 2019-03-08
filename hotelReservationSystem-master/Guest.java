@@ -1,6 +1,6 @@
 /**
  * A Guest Account
- * @author Andre Mak
+ * @author Mboh Ekale
  */
 import java.util.Date;
 
